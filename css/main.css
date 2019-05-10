@@ -31,7 +31,16 @@ body {
     background-color: #0e2438;
     color: white;
 }
+.blanco-sobre-azul a:link, .blanco-sobre-azul a:visited {
+    color: white;
+}
+.blanco-sobre-azul a:hover, .blanco-sobre-azul a:active {
+    color: #00a0ff;
+}
 .azul-sobre-blanco {
     background-color: white;
     color: #0e2438;
+}
+.intro-top-row nav.justify-content-end {
+    margin-right: 5%;
 }
