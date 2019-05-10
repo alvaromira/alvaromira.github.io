@@ -1,8 +1,37 @@
 /*
 blue 0e2438
 */
+html {
+  height: 100%;
+  width: 100%;
+}
 
-.masthead {
+body {
+  display: table;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.intro-top-row {
+  display: table-row;
+  height: 35%;
+}
+.intro-bottom-row {
+  display: table-row;
+  height: 65%;
+}
+
+.intro-bottom-row h2 {
+    text-align: center;
+}
+
+.blanco-sobre-azul {
     background-color: #0e2438;
     color: white;
+}
+.azul-sobre-blanco {
+    background-color: white;
+    color: #0e2438;
 }
